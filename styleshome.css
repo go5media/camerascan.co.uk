@@ -1,0 +1,60 @@
+/* Why Choose Us Section */
+.why-choose-us {
+  padding: 2rem 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us ul li {
+  margin: 0.5rem 0;
+}
+
+/* Services Section */
+.services {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.service-card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.service-card a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.service-card a:hover {
+  text-decoration: underline;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2rem 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonials .testimonial {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background: #444;
+}
