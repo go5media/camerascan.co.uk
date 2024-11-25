@@ -493,3 +493,47 @@ section ul li {
 
 
 
+
+
+
+
+/* Business Services Page Styling */
+.industries ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.industries ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Call to Action Section */
+.cta {
+  text-align: center;
+  padding: 2rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 2rem 0;
+}
+
+.cta .btn {
+  background: #007BFF;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta .btn:hover {
+  background: #0056b3;
+}
+
+
+
+
+
+
+
+
