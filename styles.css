@@ -277,3 +277,80 @@ section ul li {
   border-radius: 5px;
   background: #444;
 }
+
+
+
+
+
+
+
+
+
+
+/* Featured Blog Section */
+.featured-blog {
+  padding: 2rem 0;
+  background: #f9f9f9;
+}
+
+.featured-post {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.featured-post h4 a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.featured-post h4 a:hover {
+  text-decoration: underline;
+}
+
+.featured-post p a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Blog Categories */
+.blog-list, .blog-categories {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-categories ul li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-categories ul li a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.blog-categories ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Blog Posts List */
+.blog-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+.blog-list h4 a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.blog-list h4 a:hover {
+  text-decoration: underline;
+}
+
+.blog-list p {
+  margin-top: 0.5rem;
+}
