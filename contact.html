@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Camerascan | Get in Touch</title>
   <meta name="description" content="Contact Camerascan for security camera installation, maintenance, or training. Based in Sutton, we serve Sutton, Epsom, Wandsworth, and beyond.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
   <header>
@@ -24,15 +23,40 @@
       </nav>
     </div>
   </header>
+  
   <section>
     <div class="container">
       <h2>Contact Us</h2>
-      <p>Email: info@camerascan.co.uk</p>
-      <p>Address: Sutton, London Borough</p>
-      <p>Service Areas: Sutton, Epsom, Wandsworth, and surrounding areas.</p>
-      <p>Free Delivery across the UK!</p>
+      <p>Have questions or need assistance? Our team is here to help. Contact us using the details below or fill out the form to get in touch.</p>
+
+      <div class="contact-details">
+        <h3>Contact Information</h3>
+        <ul>
+          <li><strong>Email:</strong> info@camerascan.co.uk</li>
+          <li><strong>Address:</strong> Sutton, London Borough</li>
+          <li><strong>Service Areas:</strong> Sutton, Epsom, Wandsworth, and surrounding areas.</li>
+          <li><strong>Delivery:</strong> Free delivery across the UK!</li>
+        </ul>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form action="submit_form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </div>
   </section>
+
   <footer>
     <div class="container">
       <p>&copy; 2024 Camerascan. All rights reserved.</p>
