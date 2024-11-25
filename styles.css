@@ -644,3 +644,40 @@ section ul li {
 .blog-post a:hover {
   text-decoration: underline;
 }
+
+
+
+/* Course Preview Page Styling */
+.course-preview ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.course-preview ul li {
+  margin-bottom: 0.5rem;
+}
+
+.course-preview h3 {
+  margin-top: 1.5rem;
+  color: #007BFF;
+}
+
+.course-preview .preview-video {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.course-preview .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #007BFF;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.course-preview .btn:hover {
+  background: #0056b3;
+}
+
