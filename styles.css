@@ -445,3 +445,51 @@ section ul li {
 }
 
 
+
+
+/* Paid Courses Page Styling */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.course {
+  flex: 1 1 calc(30% - 1rem);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
+  padding: 1rem;
+}
+
+.course h4 a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.course h4 a:hover {
+  text-decoration: underline;
+}
+
+.course p {
+  margin-top: 0.5rem;
+}
+
+.course .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #007BFF;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.course .btn:hover {
+  background: #0056b3;
+}
+
+
+
